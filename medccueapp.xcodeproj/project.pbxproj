@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		628E369320EA84930075691E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628E369220EA84930075691E /* AppDelegate.swift */; };
+		628E369520EA84930075691E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628E369420EA84930075691E /* ViewController.swift */; };
+		628E369820EA84930075691E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 628E369620EA84930075691E /* Main.storyboard */; };
+		628E369A20EA84950075691E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628E369920EA84950075691E /* Assets.xcassets */; };
+		628E369D20EA84950075691E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 628E369B20EA84950075691E /* LaunchScreen.storyboard */; };
+		628E36A820EA84950075691E /* medccueappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628E36A720EA84950075691E /* medccueappTests.swift */; };
+		628E36B320EA84950075691E /* medccueappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628E36B220EA84950075691E /* medccueappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		628E36A420EA84950075691E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 628E368720EA84930075691E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 628E368E20EA84930075691E;
+			remoteInfo = medccueapp;
+		};
+		628E36AF20EA84950075691E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 628E368720EA84930075691E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 628E368E20EA84930075691E;
+			remoteInfo = medccueapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		628E368F20EA84930075691E /* medccueapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = medccueapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		628E369220EA84930075691E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		628E369420EA84930075691E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		628E369720EA84930075691E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		628E369920EA84950075691E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		628E369C20EA84950075691E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		628E369E20EA84950075691E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		628E36A320EA84950075691E /* medccueappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = medccueappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		628E36A720EA84950075691E /* medccueappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medccueappTests.swift; sourceTree = "<group>"; };
+		628E36A920EA84950075691E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		628E36AE20EA84950075691E /* medccueappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = medccueappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		628E36B220EA84950075691E /* medccueappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medccueappUITests.swift; sourceTree = "<group>"; };
+		628E36B420EA84950075691E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		628E368C20EA84930075691E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628E36A020EA84950075691E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628E36AB20EA84950075691E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		628E368620EA84930075691E = {
+			isa = PBXGroup;
+			children = (
+				628E369120EA84930075691E /* medccueapp */,
+				628E36A620EA84950075691E /* medccueappTests */,
+				628E36B120EA84950075691E /* medccueappUITests */,
+				628E369020EA84930075691E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		628E369020EA84930075691E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				628E368F20EA84930075691E /* medccueapp.app */,
+				628E36A320EA84950075691E /* medccueappTests.xctest */,
+				628E36AE20EA84950075691E /* medccueappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		628E369120EA84930075691E /* medccueapp */ = {
+			isa = PBXGroup;
+			children = (
+				628E369220EA84930075691E /* AppDelegate.swift */,
+				628E369420EA84930075691E /* ViewController.swift */,
+				628E369620EA84930075691E /* Main.storyboard */,
+				628E369920EA84950075691E /* Assets.xcassets */,
+				628E369B20EA84950075691E /* LaunchScreen.storyboard */,
+				628E369E20EA84950075691E /* Info.plist */,
+			);
+			path = medccueapp;
+			sourceTree = "<group>";
+		};
+		628E36A620EA84950075691E /* medccueappTests */ = {
+			isa = PBXGroup;
+			children = (
+				628E36A720EA84950075691E /* medccueappTests.swift */,
+				628E36A920EA84950075691E /* Info.plist */,
+			);
+			path = medccueappTests;
+			sourceTree = "<group>";
+		};
+		628E36B120EA84950075691E /* medccueappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				628E36B220EA84950075691E /* medccueappUITests.swift */,
+				628E36B420EA84950075691E /* Info.plist */,
+			);
+			path = medccueappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		628E368E20EA84930075691E /* medccueapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628E36B720EA84950075691E /* Build configuration list for PBXNativeTarget "medccueapp" */;
+			buildPhases = (
+				628E368B20EA84930075691E /* Sources */,
+				628E368C20EA84930075691E /* Frameworks */,
+				628E368D20EA84930075691E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = medccueapp;
+			productName = medccueapp;
+			productReference = 628E368F20EA84930075691E /* medccueapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		628E36A220EA84950075691E /* medccueappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628E36BA20EA84950075691E /* Build configuration list for PBXNativeTarget "medccueappTests" */;
+			buildPhases = (
+				628E369F20EA84950075691E /* Sources */,
+				628E36A020EA84950075691E /* Frameworks */,
+				628E36A120EA84950075691E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				628E36A520EA84950075691E /* PBXTargetDependency */,
+			);
+			name = medccueappTests;
+			productName = medccueappTests;
+			productReference = 628E36A320EA84950075691E /* medccueappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		628E36AD20EA84950075691E /* medccueappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628E36BD20EA84950075691E /* Build configuration list for PBXNativeTarget "medccueappUITests" */;
+			buildPhases = (
+				628E36AA20EA84950075691E /* Sources */,
+				628E36AB20EA84950075691E /* Frameworks */,
+				628E36AC20EA84950075691E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				628E36B020EA84950075691E /* PBXTargetDependency */,
+			);
+			name = medccueappUITests;
+			productName = medccueappUITests;
+			productReference = 628E36AE20EA84950075691E /* medccueappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		628E368720EA84930075691E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ari Brown";
+				TargetAttributes = {
+					628E368E20EA84930075691E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					628E36A220EA84950075691E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 628E368E20EA84930075691E;
+					};
+					628E36AD20EA84950075691E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 628E368E20EA84930075691E;
+					};
+				};
+			};
+			buildConfigurationList = 628E368A20EA84930075691E /* Build configuration list for PBXProject "medccueapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 628E368620EA84930075691E;
+			productRefGroup = 628E369020EA84930075691E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				628E368E20EA84930075691E /* medccueapp */,
+				628E36A220EA84950075691E /* medccueappTests */,
+				628E36AD20EA84950075691E /* medccueappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		628E368D20EA84930075691E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628E369D20EA84950075691E /* LaunchScreen.storyboard in Resources */,
+				628E369A20EA84950075691E /* Assets.xcassets in Resources */,
+				628E369820EA84930075691E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628E36A120EA84950075691E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628E36AC20EA84950075691E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		628E368B20EA84930075691E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628E369520EA84930075691E /* ViewController.swift in Sources */,
+				628E369320EA84930075691E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628E369F20EA84950075691E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628E36A820EA84950075691E /* medccueappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628E36AA20EA84950075691E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628E36B320EA84950075691E /* medccueappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		628E36A520EA84950075691E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 628E368E20EA84930075691E /* medccueapp */;
+			targetProxy = 628E36A420EA84950075691E /* PBXContainerItemProxy */;
+		};
+		628E36B020EA84950075691E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 628E368E20EA84930075691E /* medccueapp */;
+			targetProxy = 628E36AF20EA84950075691E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		628E369620EA84930075691E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				628E369720EA84930075691E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		628E369B20EA84950075691E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				628E369C20EA84950075691E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		628E36B520EA84950075691E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		628E36B620EA84950075691E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		628E36B820EA84950075691E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = medccueapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MedicalCue.medccueapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		628E36B920EA84950075691E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = medccueapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MedicalCue.medccueapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		628E36BB20EA84950075691E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = medccueappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MedicalCue.medccueappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/medccueapp.app/medccueapp";
+			};
+			name = Debug;
+		};
+		628E36BC20EA84950075691E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = medccueappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MedicalCue.medccueappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/medccueapp.app/medccueapp";
+			};
+			name = Release;
+		};
+		628E36BE20EA84950075691E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = medccueappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MedicalCue.medccueappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = medccueapp;
+			};
+			name = Debug;
+		};
+		628E36BF20EA84950075691E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = medccueappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MedicalCue.medccueappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = medccueapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		628E368A20EA84930075691E /* Build configuration list for PBXProject "medccueapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628E36B520EA84950075691E /* Debug */,
+				628E36B620EA84950075691E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628E36B720EA84950075691E /* Build configuration list for PBXNativeTarget "medccueapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628E36B820EA84950075691E /* Debug */,
+				628E36B920EA84950075691E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628E36BA20EA84950075691E /* Build configuration list for PBXNativeTarget "medccueappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628E36BB20EA84950075691E /* Debug */,
+				628E36BC20EA84950075691E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628E36BD20EA84950075691E /* Build configuration list for PBXNativeTarget "medccueappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628E36BE20EA84950075691E /* Debug */,
+				628E36BF20EA84950075691E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 628E368720EA84930075691E /* Project object */;
+}
